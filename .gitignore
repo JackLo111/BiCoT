@@ -1,0 +1,18 @@
+# never commit keys, weights, caches or logs
+*.pt
+*.pth
+*.bin
+*.safetensors
+secret_vector*
+outputs/
+checkpoints/
+cache/
+results/
+__pycache__/
+.claude/
+.cursor/
+.vscode/
+.env
+.venv/
+dist/
+.ruff_cache/
